@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, Variants } from 'framer-motion';
 import { useRef } from 'react';
 
 const FIELDS = [
@@ -16,8 +16,8 @@ const SUMMARY = [
   { label: '투입 드론',       value: '4대',     color: '#A78BFA' },
 ] as const;
 
-const stagger  = { hidden: {}, visible: { transition: { staggerChildren: 0.07 } } };
-const fadeSlide = {
+const stagger: Variants  = { hidden: {}, visible: { transition: { staggerChildren: 0.07 } } };
+const fadeSlide: Variants = {
   hidden:  { opacity: 0, x: -12 },
   visible: { opacity: 1, x: 0,  transition: { duration: 0.38, ease: 'easeOut' } },
 };

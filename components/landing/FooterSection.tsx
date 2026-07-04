@@ -76,7 +76,7 @@ export default function FooterSection() {
         <div className="mb-16">
           <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-slate-500">Team</p>
           <p className="mb-6 text-sm font-bold text-white">
-            바쁜벌꿀 — 인하대학교 종합설계 2025
+            바쁜벌꿀 — 인하대학교 종합설계 2026
           </p>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
             {TEAM.map((m) => (
@@ -97,7 +97,7 @@ export default function FooterSection() {
           </Link>
 
           <p className="text-xs text-slate-600">
-            © 2025 Pollen-Drone · Inha University Capstone Design · All rights reserved.
+            © 2026 Pollen-Drone · Inha University Capstone Design · All rights reserved.
           </p>
 
           <div className="flex items-center gap-5">

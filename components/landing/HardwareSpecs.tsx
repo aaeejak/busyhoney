@@ -11,8 +11,8 @@ const SPECS = [
   { label: '고도 유지',      value: 'LiDAR + 초음파',           icon: '🔊', color: '#3B82F6' },
   { label: '분사 메커니즘',  value: '마이크로 펌프',            icon: '💧', color: '#60A5FA' },
   { label: '온보드 AI',      value: 'Jetson Nano',              icon: '🤖', color: '#A78BFA' },
-  { label: '정찰 드론',      value: '대형 1대',                 icon: '🚁', color: '#34D399' },
-  { label: '수분 드론 군집', value: '소형 3~5대',               icon: '🐝', color: '#22C55E' },
+  { label: '대형 정찰 드론',      value: '1대',   icon: '🚁', color: '#34D399' },
+  { label: '소형 수분 드론 군집', value: '3~5대', icon: '🐝', color: '#22C55E' },
   { label: '드론 통신',      value: 'MAVLink 프로토콜',         icon: '📶', color: '#F59E0B' },
   { label: '분사 장치',      value: '마이크로 펌프 및 서보 모터', icon: '⚙️', color: '#EC4899' },
 ] as const;
@@ -84,7 +84,7 @@ export default function HardwareSpecs() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-blue-400">Hardware</p>
           <h2 className="text-3xl font-black text-white lg:text-4xl">적용 기술 스택</h2>
           <p className="mt-3 text-slate-400">
-            정찰용 대형 드론 1대 + 수분용 소형 드론 3~5대 군집 운용에 실제 적용되는 부품과 기술
+            대형 정찰 드론 1대 + 소형 수분 드론 3~5대 군집 운용에 실제 적용되는 부품과 기술
           </p>
         </motion.div>
 

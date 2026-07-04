@@ -8,7 +8,7 @@ const STEPS = [
     num:   '01',
     icon:  '🚁',
     title: '과수원 탐색 및 맵핑',
-    desc:  '대형 드론 1대가 고해상도 카메라로 과수원을 정찰. AI가 개화 꽃의 위치를 탐지해 좌표 데이터로 변환합니다.',
+    desc:  '대형 드론이 고해상도 카메라로 과수원을 정찰. AI가 개화 꽃의 위치를 탐지해 좌표 데이터로 변환합니다.',
     color: '#22C55E',
   },
   {
@@ -54,7 +54,7 @@ export default function HowItWorks() {
         >
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-blue-400">How It Works</p>
           <h2 className="text-3xl font-black text-white lg:text-4xl">4단계로 완료되는 수분 자동화</h2>
-          <p className="mt-3 text-slate-400">농부가 할 일은 딱 하나 — 앱을 열고 구역을 등록하는 것뿐입니다</p>
+          <p className="mt-3 text-slate-400">농장주가 할 일은 단 하나 — 웹 플랫폼에 접속해 구역을 등록하는 것뿐입니다</p>
         </motion.div>
 
         {/* Flow diagram */}

@@ -83,7 +83,6 @@ const ProblemCard = memo(function ProblemCard({
 });
 
 // ─── CountUp stat card ────────────────────────────────────────────────────────
-// staticDisplay overrides the animated number (for non-numeric stats like "1 + 3~5대")
 function StatCard({ suffix = '', value, label, color, staticDisplay }: {
   suffix?: string; value: number; label: string; color: string; staticDisplay?: string;
 }) {
@@ -158,7 +157,7 @@ export default function StatsSection() {
           <StatCard value={90} suffix="%+"     label="YOLO AI 꽃 인식 정확도 목표 (mAP)"    color="#22C55E" />
           <StatCard value={80} suffix="%+"     label="수작업 대비 수분 작업 시간 단축 목표" color="#3B82F6" />
           <StatCard value={30} suffix="%+"     label="정밀 분사로 꽃가루 사용량 절감 목표"  color="#A78BFA" />
-          <StatCard value={0}  staticDisplay="1 + 3~5대" label="정찰 드론 1대 + 수분 드론 3~5대 군집" color="#34D399" />
+          <StatCard value={0}  staticDisplay="1 + 3~5대" label="대형 정찰 드론 1대 + 소형 수분 드론 3~5대 군집" color="#34D399" />
         </div>
       </div>
     </section>

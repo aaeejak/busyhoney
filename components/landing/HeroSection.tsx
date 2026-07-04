@@ -86,7 +86,7 @@ export default function HeroSection() {
           <motion.div variants={fadeUp(0)}>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5 text-xs font-medium text-slate-400 backdrop-blur-sm">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
-              Inha University Capstone Design · 2025
+              Inha University Capstone Design · 2026
             </span>
           </motion.div>
 
@@ -103,7 +103,7 @@ export default function HeroSection() {
 
           <motion.p variants={fadeUp(0.1)} className="mt-6 max-w-md text-lg leading-relaxed text-slate-400">
             AI 꽃 인식, 군집 드론 제어, 실시간 모니터링을<br className="hidden sm:block" />
-            하나의 플랫폼으로.
+            하나의 웹 플랫폼으로.
           </motion.p>
 
           <motion.div variants={fadeUp(0.15)} className="mt-10 flex flex-wrap items-center gap-4">

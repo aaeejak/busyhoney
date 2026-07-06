@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, Variants } from 'framer-motion';
 import { memo, useEffect, useRef, useState } from 'react';
 
 // ─── CountUp hook ─────────────────────────────────────────────────────────────
@@ -105,8 +105,8 @@ function StatCard({ suffix = '', value, label, color, staticDisplay }: {
 }
 
 // ─── Section ──────────────────────────────────────────────────────────────────
-const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.09 } } };
-const fadeUp  = { hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } } };
+const stagger: Variants = { hidden: {}, visible: { transition: { staggerChildren: 0.09 } } };
+const fadeUp: Variants  = { hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } } };
 
 export default function StatsSection() {
   return (
